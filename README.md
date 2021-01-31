@@ -1,31 +1,57 @@
 # CyberSecurityRSS
-网络安全相关的RSS订阅，汇集的是个人一般看的站点，也会不断的补充。附录加一些可能没有rss的站点，但是是本人日常浏览的不错站点，重点拎出来。
+[中文文档](https://github.com/zer0yu/CyberSecurityRSS/blob/master/README.zh-CN.md)
 
-## 使用方法1 - Leaf
+Introduction: RSS subscriptions related to cybersecurity, helping to establish personal intelligence sources and daily knowledge base updates.
 
-直接导入提供的CyberSecurityRSS.xml文件即可
+The update frequency: every 2 months.
+
+File description:
+
+1. The others.md file adds some sites without rss subscription, but the site content is very good, so list them separately.
+
+2. The tiny.opml file is a streamlined version of the secure RSS subscription for cyberspace.
+
+3. The Cyber​​SecurityRSS.xml file is a rich version of cyberspace security RSS subscription, which involves all aspects of cyberspace security.
+
+PS: If you encounter problems with the format of the imported file, you can modify the xml suffix to opml suffix, or modify the opml suffix to xml suffix.
+
+```
+cp CyberSecurityRSS.xml CyberSecurityRSS.opml
+cp tiny.opml tiny.xml
+```
+
+## Usage 1-Reeder3/Reeder4 (macOS, IOS preferred)
+import OMPL into Reeder `Subcsriptions -> Import from OMPL`
+
+![截屏2020-09-27 下午9.02.50.png](https://i.loli.net/2020/09/28/NKmtPzv368hiYT9.png)
+
+## Usage 2 - [yarr](https://github.com/nkanaev/yarr) (macOS, Windows, Linux)
+
+![截屏2020-10-06 上午9.56.09.png](https://i.loli.net/2020/10/06/p9udsMkOQmHAtI8.png)
+
+## Usage 3 - Leaf
+
+Import the file directly to use it.
 
 ![屏幕快照 2019-04-02 下午4.04.14.png](https://i.loli.net/2019/04/02/5ca317954382b.png)
 
-## 使用方法2 - Reeder3
+## Usage 4 - Feedly
 
-tiny.opml是个人使用的一个精简版本，删除了一些不常看的英文站点，并且进行了分类
+Use the same way as Usage 1
 
-![屏幕快照 2019-04-02 下午3.56.04.png](https://i.loli.net/2019/04/02/5ca316d8dd231.png)
+## Usage 5 - [BlueReader](https://bluereader.org/)
 
-## 使用方法3 - Feedly
+Use the same way as Usage 1
 
-同1
+## Usage 6 - Feeder(Recommended for Android users)
 
-## 使用方法4 - 深蓝阅读
+Use the same way as Usage 1
 
-同1
+## Usage 7 - [Zr](https://www.coolapk.com/apk/176794)(Recommended for Android users)
 
-## 附录
+Use the same way as Usage 1
 
-others.md中是我一般会主动浏览的站点并且一些站点没有提供rss的都写在了里面。
+## Epilogue
 
-## 结语
-
-如果大家还有很棒的站点欢迎提issue
+If you find a great site, please submit an issue or pr
 
